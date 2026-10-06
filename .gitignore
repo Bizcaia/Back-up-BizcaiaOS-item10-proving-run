@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Supabase CLI local runtime state (not source of truth)
+supabase/.temp/
+supabase/.branches/
+supabase/snippets/
+
+# Build artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# Local Claude package extracts (never commit)
+_claude_*_extracted/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
